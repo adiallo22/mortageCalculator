@@ -17,7 +17,7 @@ public class mortageCalc {
         System.out.println("How much did you pay down? : ");
         double downPayment = input.nextDouble();
 
-        calc serie - new calc(propertyPrice, rate, rate, freqPayment, downPayment);
+        calc serie = new calc(propertyPrice, rate, rate, freqPayment, downPayment);
 
     }
 
