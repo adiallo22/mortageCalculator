@@ -3,7 +3,7 @@ import java.util.*;
 
 public class mortageCalc {
 
-    public Scanner input;
+    public static Scanner input;
 
     public static void main (String[] args) {
 
@@ -17,7 +17,7 @@ public class mortageCalc {
         System.out.println("How much did you pay down? : ");
         double downPayment = input.nextDouble();
 
-        calc serie = new calc(propertyPrice, rate, rate, freqPayment, downPayment);
+        calc serie = new calc(propertyPrice, rate, year, freqPayment, downPayment);
 
     }
 
