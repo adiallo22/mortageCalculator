@@ -13,8 +13,17 @@ public class calc {
         this.downPayment = downPayment;
     }
 
-    public int mortage(){
+    public double mortage(){
+
         return propertyPrice-downPayment;
+
+    }
+
+    public double payment(){
+        double mortage = mortage();
+        double num = mortage * rate / freqPayment;
+        double den = (1 - (1 + (rate / freqPayment))math.pow(-freqPayment*year));
+        return num/den;
     }
 
 
