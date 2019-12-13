@@ -30,5 +30,9 @@ public class calc {
         return payment()*freqPayment*year;
     }
 
+    public double interest(){
+        return totalPayment()-downPayment;
+    }
+
 
 }
