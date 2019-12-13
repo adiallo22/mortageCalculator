@@ -13,24 +13,22 @@ public class calc {
         this.downPayment = downPayment;
     }
 
-    public double mortage(){
-
+    public static double mortage(){
         return propertyPrice-downPayment;
-
     }
 
-    public double payment(){
+    public static double payment(){
         double mortage = mortage();
         double num = mortage * rate / freqPayment;
         double den = (1 - (1 + (rate / freqPayment))math.pow(-freqPayment*year));
         return num/den;
     }
 
-    public double totalPayment(){
+    public static double totalPayment(){
         return payment()*freqPayment*year;
     }
 
-    public double interest(){
+    public static double interest(){
         return totalPayment()-downPayment;
     }
 
