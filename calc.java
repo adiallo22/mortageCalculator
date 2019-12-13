@@ -26,5 +26,9 @@ public class calc {
         return num/den;
     }
 
+    public double totalPayment(){
+        return payment()*freqPayment*year;
+    }
+
 
 }
