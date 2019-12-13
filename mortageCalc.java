@@ -14,6 +14,8 @@ public class mortageCalc {
         double rate = input.nextInt();
         System.out.println("How many time a year you make payment : ");
         int freqPayment = input.nextInt();
+        System.out.println("How many years are you paying the house? : ");
+        int year = input.nextInt();
         System.out.println("How much did you pay down? : ");
         double downPayment = input.nextDouble();
 
