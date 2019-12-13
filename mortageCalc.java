@@ -10,4 +10,8 @@ public class mortageCalc {
 
     }
 
+    public int mortage() {
+
+    }
+
 }
