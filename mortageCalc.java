@@ -21,6 +21,10 @@ public class mortageCalc {
 
         calc serie = new calc(propertyPrice, rate, year, freqPayment, downPayment);
 
+        System.out.println("payment: "+calc.payment());
+        System.out.println("total payment: "+calc.totalPayment());
+        System.out.println("Interest: "+calc.interest());
+
     }
 
 }
