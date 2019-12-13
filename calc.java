@@ -4,6 +4,7 @@ public class calc {
     private double rate;
     private int year;
     private int freqPayment;
+    private double downPayment;
 
     calc(double propertyPrice, double rate, int rate, int freqPayment) {
         this.propertyPrice = propertyPrice;
@@ -11,6 +12,8 @@ public class calc {
         this.freqPayment = freqPayment;
     }
 
-    
+    public int mortage(){
+        return propertyPrice-downPayment;
+    }
 
 }
