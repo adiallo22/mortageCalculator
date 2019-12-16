@@ -22,7 +22,7 @@ public class calc {
     public static double payment(){
         double mortage = mortage();
         double num = mortage * rate / freqPayment;
-        double den = Math.pow(1 - (1 + (rate / freqPayment), -freqPayment*year);
+        double den = Math.pow(1 - (1 + (rate / freqPayment)), -freqPayment*year);
         return num/den;
     }
 
