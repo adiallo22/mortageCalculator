@@ -1,3 +1,5 @@
+import java.*;
+
 public class calc {
 
     private double propertyPrice;
