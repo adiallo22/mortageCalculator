@@ -1,4 +1,4 @@
-import java.*;
+import java.util.*;
 
 public class calc {
 
@@ -10,6 +10,7 @@ public class calc {
 
     calc(double propertyPrice, double rate, int year, int freqPayment, double downPayment) {
         this.propertyPrice = propertyPrice;
+        this.rate = rate;
         this.year = year;
         this.freqPayment = freqPayment;
         this.downPayment = downPayment;
