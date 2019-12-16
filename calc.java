@@ -16,13 +16,13 @@ public class calc {
     }
 
     public static double mortage(){
-        return propertyPrice-downPayment;
+        return propertyPrice - downPayment;
     }
 
     public static double payment(){
         double mortage = mortage();
         double num = mortage * rate / freqPayment;
-        double den = (1 - (1 + (rate / freqPayment))math.pow(-freqPayment*year));
+        double den = Math.pow(1 - (1 + (rate / freqPayment), -freqPayment*year);
         return num/den;
     }
 
